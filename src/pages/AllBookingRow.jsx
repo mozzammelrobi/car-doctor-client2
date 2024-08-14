@@ -5,8 +5,6 @@ const AllBookingRow = ({ booking , handleDelete, handleBookingConfirm }) => {
     const { image, email, date, price, CustomarName, _id,status } = booking;
     // console.log(booking)
 
-   
-
     return (
         <tr>
             <th>
